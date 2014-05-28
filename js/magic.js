@@ -10,7 +10,7 @@ $(function() {
 	}
 	btn += "</div><div class='preNext pre'></div><div class='preNext next'></div>";
 	$("#focus").append(btn);
-	$("#focus .btnBg").css("opacity",0.5);
+	$("#focus .btnBg").css("opacity",0.2);
 
 	$("#focus .btn span").css("opacity",0.4).mouseenter(function() {
 		index = $("#focus .btn span").index(this);
@@ -37,15 +37,15 @@ $(function() {
 
 	$("#focus #ul-container").css("width",sWidth * (len));
 	
-	$("#focus").hover(function() {
-		clearInterval(picTimer);
-	},function() {
-		picTimer = setInterval(function() {
-			showPics(index);
-			index++;
-			if(index == len) {index = 0;}
-		},4000); 
-	}).trigger("mouseleave");
+	// $("#focus").hover(function() {
+	// 	clearInterval(picTimer);
+	// },function() {
+	// 	picTimer = setInterval(function() {
+	// 		showPics(index);
+	// 		index++;
+	// 		if(index == len) {index = 0;}
+	// 	},4000); 
+	// }).trigger("mouseleave");
 	
 	function showPics(index) { 
 		var nowLeft = -index*sWidth;
