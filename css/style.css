@@ -1,0 +1,90 @@
+.site-footer {
+padding: 36px 18px;
+}
+.site-footer {
+padding: 18px;
+border-top: 1px solid #efedeb;
+/*background: url(/images/footer_bg.png) center top repeat-x;*/
+}
+.site-piece, .site-nav-wrap {
+-webkit-transition: left 300ms ease-in;
+-moz-transition: left 300ms ease-in;
+-o-transition: left 300ms ease-in;
+transition: left 300ms ease-in;
+}
+.site-piece {
+position: relative;
+left: 0%;
+}
+
+
+.site-footer:after, .footer-social-search .footer-social:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
+.page-wrap {
+max-width: 1152px;
+margin: 0 auto;
+font-size: 1.55rem;
+}
+
+.page-wrap>ul>li>a{
+	color: #55BEFA;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.footer-nav {
+width: 15.49296%;
+float: left;
+display: inline;
+margin-right: 1.40845%;
+}
+
+.footer-nav, .footer-child-nav, .footer-social-search .footer-social {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.footer-nav li {
+list-style: none;
+}
+.footer-nav>li {
+margin: 0 0 9px;
+}
+
+.footer-nav a {
+text-decoration: none;
+font-weight: normal;
+}
+a {
+color: #0069aa;
+}
+
+.footer-nav, .footer-child-nav, .footer-social-search .footer-social {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+footer ul, ol {
+margin: 0 0 10px;
+font-size: 14px;
+font-size: .975rem;
+}
+
+.footer-social-search {
+clear: none;
+width: 32.39437%;
+float: right;
+margin-right: 0;
+}
+
+.footer-social-search>ul>li{
+	display: inline;
+}
