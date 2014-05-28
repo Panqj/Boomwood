@@ -37,15 +37,15 @@ $(function() {
 
 	$("#focus #ul-container").css("width",sWidth * (len));
 	
-	$("#focus").hover(function() {
-		clearInterval(picTimer);
-	},function() {
-		picTimer = setInterval(function() {
-			showPics(index);
-			index++;
-			if(index == len) {index = 0;}
-		},4000); 
-	}).trigger("mouseleave");
+	// $("#focus").hover(function() {
+	// 	clearInterval(picTimer);
+	// },function() {
+	// 	picTimer = setInterval(function() {
+	// 		showPics(index);
+	// 		index++;
+	// 		if(index == len) {index = 0;}
+	// 	},4000); 
+	// }).trigger("mouseleave");
 	
 	function showPics(index) { 
 		var nowLeft = -index*sWidth;
