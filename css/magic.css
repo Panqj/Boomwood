@@ -84,3 +84,9 @@
 	padding: 0 4px;
 	color: #333
 }
+
+/*slider*/
+#full-width-slider {
+	width: 1600px;
+	height: 680px;
+}
