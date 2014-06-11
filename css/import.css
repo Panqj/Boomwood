@@ -3658,8 +3658,8 @@ a[name] {
 }
 header {
   position: fixed;
-  height: 80px;
-  padding: 15px 0;
+  height: 90px;
+  padding: 10px 0;
   background-color: rgba(174, 89, 32, 0.9);
   color: #e9c4aa;
   width: 100%;
@@ -3682,14 +3682,14 @@ header .logo p {
   margin: 0;
 }
 header .logo a {
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  display: block;
+  /*background-repeat: no-repeat;*/
+  /*background-position: 0 0;*/
+  /*display: none;*/
   text-indent: -999em;
   overflow: hidden;
   direction: ltr;
-  width: 150px;
-  height: 60px;
+  width: 1024px;
+  height: 672px;
   /*background-image: url("../img/theme/sprite-objects.png");*/
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
@@ -3830,9 +3830,9 @@ fieldset[disabled] #banner .overlay .btn-default.active {
 }
 .product-range {
   position: relative;
-  height: 400px;
+  height: 760px;
   min-height: 370px;
-  padding: 45px 0;
+  padding: 1px 0;
   text-align: center;
   color: #fff;
 }
@@ -3855,7 +3855,8 @@ fieldset[disabled] #banner .overlay .btn-default.active {
 }
 .product-range ul {
   display: inline-block;
-  margin: 45px auto;
+  /*margin: 15px auto;*/
+  width: 100%;
 }
 .product-range ul:before,
 .product-range ul:after {
@@ -3874,12 +3875,13 @@ fieldset[disabled] #banner .overlay .btn-default.active {
   clear: both;
 }
 .product-range ul > li {
-  float: left;
+  /*float: left;*/
   display: inline-block;
   text-align: center;
+  margin: auto 22px;
 }
 .product-range ul > li + li {
-  margin-left: 16px;
+  margin-left: 11px;
 }
 .product-range ul > li > a {
   display: block;
