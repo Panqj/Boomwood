@@ -16,6 +16,10 @@ $(function($) {
 	$("nav .nav li:nth-child(n+3) a").hover(function() {
 		$(".mega-menu, .mega-menu .container>div").css("display", "none");
 	});
+	
+	$("nav .nav li:nth-child(1) a").hover(function() {
+		$(".mega-menu, .mega-menu .container>div").css("display", "none");
+	});
 
 	effect = { left: true, fade: true, easing: 'pow2', order: 'rectangle', duration: 2000 };
 	var demoSlider_2 = Sliderman.slider({container: 'full-slider', width: 1600, height: 680, effects: [ effect ],

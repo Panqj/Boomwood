@@ -2157,6 +2157,8 @@ input[type="button"].btn-block {
 }
 .icon-play {
   background-position: -144px -27px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform:rotate(90deg);
 }
 .icon-social {
   width: 23px;
